@@ -116,9 +116,6 @@ def main():
 
     print("=== HASIL PRAKTIKUM KOMPUTASI PARALEL ===")
     print()
-    print("Nama                  : Juhariana")
-    print("NIM                   : D0224336")
-    print("Kelas                 : 2024D")
     print(f"Ukuran matriks        : {args.size} x {args.size}")
     print(f"Jumlah proses         : {args.workers}")
     print(f"Waktu sekuensial      : {sequential_time:.6f} detik")
